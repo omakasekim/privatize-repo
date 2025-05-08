@@ -1,6 +1,6 @@
 # Make Private Repositories Script
 
-This Bash script (`make_private.sh`) allows you to interactively select public GitHub repositories owned by your account and change their visibility to private. It uses the GitHub CLI (`gh`) to fetch repositories and the `fzf` command-line tool for interactive selection.
+This Bash script (`make_private.bash`) allows you to interactively select public GitHub repositories owned by your account and change their visibility to private. It uses the GitHub CLI (`gh`) to fetch repositories and the `fzf` command-line tool for interactive selection.
 
 ## Features
 
@@ -34,17 +34,13 @@ Before running the script, ensure you have the following installed:
 
 1. **Download the Script**:
    ```
-   Save make_private.sh to a directory (e.g., ~/scripts/).
+   Save make_private.bash to a directory (e.g., ~/scripts/).
    ```
-   Alternatively, clone this repository if available:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+
 
 2. **Make the Script Executable**:
    ```bash
-   chmod +x make_private.sh
+   chmod +x make_private.bash
    ```
 
 3. **Verify Dependencies**:
@@ -60,7 +56,7 @@ Before running the script, ensure you have the following installed:
 
 1. **Run the Script**:
    ```bash
-   ./make_private.sh
+   ./make_private.bash
    ```
 
 2. **Script Flow**:
